@@ -580,21 +580,21 @@ const MobileDashboard = () => {
                 <h3 className="text-lg font-semibold mb-4">Report Statistics</h3>
                 <div className="grid grid-cols-3 gap-4">
                     <StatCard
-                        icon="📊"
+                        icon=""
                         label="Total Reports"
                         value={totalReports}
                         bg="bg-indigo-100"
                         textColor="text-indigo-600"
                     />
                     <StatCard
-                        icon="⏳"
+                        icon=""
                         label="Pending Reports"
                         value={pendingReports}
                         bg="bg-yellow-100"
                         textColor="text-yellow-600"
                     />
                     <StatCard
-                        icon="✅"
+                        icon=""
                         label="Resolved Reports"
                         value={resolvedReports}
                         bg="bg-green-100"

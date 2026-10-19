@@ -1,7 +1,10 @@
 const mongoose = require('mongoose');
+if (!process.env.MONGODB_URI) {
+  throw new Error('MONGODB_URI is not set. Copy .env.example to .env and fill it in.');
+}
 
 mongoose.connect(
-    'mongodb+srv://srecharandesu:***REMOVED***@cluster0.a9berin.mongodb.net/CampusSchieldAPI');
+    process.env.MONGODB_URI);
 
 const userSchema = new mongoose.Schema({
     Username: {

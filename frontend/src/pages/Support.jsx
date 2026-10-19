@@ -6,16 +6,16 @@ const Support = () => {
   const [activeTab, setActiveTab] = useState("Emergency");
 
   const emergencyContacts = [
-    { name: 'National Women Helpline', number: '1091', description: 'Immediate assistance for women in distress', category: 'Emergency', icon: '🆘' },
-    { name: 'National Commission for Women', number: '7827170170', description: '24x7 helpline for issues related to violence against women', category: 'Emergency', icon: '♀️' },
-    { name: 'Women Helpline (Domestic Abuse)', number: '181', description: 'Support for women facing domestic violence', category: 'Emergency', icon: '🏠' },
-    { name: 'Akancha Against Harassment', number: '9152987821', description: 'Support for cyber harassment victims', category: 'Cyber Safety', icon: '💻' },
-    { name: 'Central Social Welfare Board - Police Helpline', number: '1091', description: 'Assistance for women in distress', category: 'Emergency', icon: '🚨' },
-    { name: 'Delhi Commission for Women', number: '181', description: 'Helpline for women in Delhi facing harassment or violence', category: 'Emergency', icon: '🏢' },
-    { name: 'Mumbai Police Women Helpline', number: '103', description: 'Helpline for women in Mumbai facing harassment or violence', category: 'Emergency', icon: '🏙️' },
-    { name: 'Bihar Women Helpline', number: '18003456247', description: 'Support for women in distress in Bihar', category: 'Emergency', icon: '📞' },
-    { name: 'Assam Women Helpline', number: '181', description: 'Support for women in distress in Assam', category: 'Emergency', icon: '📞' },
-    { name: 'Haryana Women Helpline', number: '1091', description: 'Support for women in distress in Haryana', category: 'Emergency', icon: '📞' }
+    { name: 'National Women Helpline', number: '1091', description: 'Immediate assistance for women in distress', category: 'Emergency', icon: '' },
+    { name: 'National Commission for Women', number: '7827170170', description: '24x7 helpline for issues related to violence against women', category: 'Emergency', icon: '' },
+    { name: 'Women Helpline (Domestic Abuse)', number: '181', description: 'Support for women facing domestic violence', category: 'Emergency', icon: '' },
+    { name: 'Akancha Against Harassment', number: '9152987821', description: 'Support for cyber harassment victims', category: 'Cyber Safety', icon: '' },
+    { name: 'Central Social Welfare Board - Police Helpline', number: '1091', description: 'Assistance for women in distress', category: 'Emergency', icon: '' },
+    { name: 'Delhi Commission for Women', number: '181', description: 'Helpline for women in Delhi facing harassment or violence', category: 'Emergency', icon: '' },
+    { name: 'Mumbai Police Women Helpline', number: '103', description: 'Helpline for women in Mumbai facing harassment or violence', category: 'Emergency', icon: '' },
+    { name: 'Bihar Women Helpline', number: '18003456247', description: 'Support for women in distress in Bihar', category: 'Emergency', icon: '' },
+    { name: 'Assam Women Helpline', number: '181', description: 'Support for women in distress in Assam', category: 'Emergency', icon: '' },
+    { name: 'Haryana Women Helpline', number: '1091', description: 'Support for women in distress in Haryana', category: 'Emergency', icon: '' }
   ];
   
 

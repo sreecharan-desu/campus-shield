@@ -155,7 +155,7 @@ const SirenButton = () => {
                 transition={{ duration: 1 }}
                 className="bg-green-500 text-white font-bold rounded-full w-20 h-20 flex items-center justify-center"
               >
-                ✅
+               
               </motion.div>
             ) : (
               <motion.div
