@@ -63,7 +63,7 @@ mongoose.connect(
     process.env.MONGODB_URI);
 ```
 
-**Connection String:** The connection string includes the username (`srecharandesu`), password (`***REMOVED***`), cluster address (`cluster0.a9berin.mongodb.net`), and database name (`CampusSchieldAPI`).  **Note:** In a production environment, sensitive information like the password should be managed using environment variables or a secrets management system.
+**Connection string:** read from the `MONGODB_URI` environment variable (see `backend/.env.example`). Never commit real credentials.
 
 ### 2. User Schema
 
