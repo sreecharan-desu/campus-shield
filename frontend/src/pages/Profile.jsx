@@ -587,7 +587,7 @@ const MobileDashboard = () => {
                         textColor="text-indigo-600"
                     />
                     <StatCard
-                        icon="⏳"
+                        icon=""
                         label="Pending Reports"
                         value={pendingReports}
                         bg="bg-yellow-100"
