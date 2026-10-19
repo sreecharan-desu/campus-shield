@@ -449,7 +449,7 @@ userRouter.post('/sendsiren', async (req, res) => {
 
         const emailTemplate = `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
-            <h2 style="color: #d32f2f; text-align: center; margin-bottom: 20px;">⚠️ URGENT: Siren Alert</h2>
+            <h2 style="color: #d32f2f; text-align: center; margin-bottom: 20px;">URGENT: Siren Alert</h2>
             <p style="color: #555; text-align: center; margin-bottom: 20px;">
                 An emergency alert has been triggered. Please review the details below and take appropriate action immediately.
             </p>
@@ -476,7 +476,7 @@ userRouter.post('/sendsiren', async (req, res) => {
         const mailOptions = {
             from: mailId,
             to: mailId,
-            subject: '🚨 EMERGENCY: Siren Alert Triggered',
+            subject: 'EMERGENCY: Siren Alert Triggered',
             html: emailTemplate
         };
 
@@ -493,7 +493,7 @@ userRouter.post('/sendsiren', async (req, res) => {
             const authorityMailOptions = {
                 from: mailId,
                 to: collegeAuthorities.Email,
-                subject: '🚨 EMERGENCY: Siren Alert Triggered',
+                subject: 'EMERGENCY: Siren Alert Triggered',
                 html: emailTemplate
             };
 
