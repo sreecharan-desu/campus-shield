@@ -60,7 +60,7 @@ The `db.js` file establishes a connection to the MongoDB Atlas cluster using the
 const mongoose = require('mongoose');
 
 mongoose.connect(
-    'mongodb+srv://srecharandesu:***REMOVED***@cluster0.a9berin.mongodb.net/CampusSchieldAPI');
+    process.env.MONGODB_URI);
 ```
 
 **Connection String:** The connection string includes the username (`srecharandesu`), password (`***REMOVED***`), cluster address (`cluster0.a9berin.mongodb.net`), and database name (`CampusSchieldAPI`).  **Note:** In a production environment, sensitive information like the password should be managed using environment variables or a secrets management system.
